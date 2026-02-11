@@ -1,7 +1,21 @@
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #f3f6fb;
+}
+
+.wrapper{
+  background-color: #ffffff;
+  max-width: 64rem;
+  margin: 0 auto;
+  border: 2px solid silver;
+  box-shadow: 2px 2px 20px black;
+}
+
 header {
+  background: linear-gradient(135deg, #0d4d73, #0b102a);
   padding: 40px;
-  text-align: center;
+  color: white;
 }
 
 header h1 {
@@ -10,6 +24,8 @@ header h1 {
 
 nav {
   text-transform: uppercase;
+  background: #0d4d73;
+  border-bottom: 4px solid rgba(245,158,11,0.85);
 }
 
 nav ul {
@@ -29,9 +45,25 @@ nav a {
   display: flex;
   padding: 10px;
   text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
-  background: rgb(138, 138, 138);
+  background: rgba(245,158,11,0.85);
   border-radius: 2rem;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.section1 {
+  background: linear-gradient(135deg, #0d4d73, #0b102a);
+  text-align: center;
+  color: white;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 20px black
 }
